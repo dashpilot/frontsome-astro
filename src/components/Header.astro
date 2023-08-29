@@ -1,0 +1,9 @@
+---
+const { body, center } = Astro.props;
+---
+
+<h1><a href="/"><span class="text-gradient">Front</span>some</a></h1>
+
+<div class="tagline"><p>Awesome front-end tools for developers</p></div>
+
+<div class="instructions" set:html={body} />
